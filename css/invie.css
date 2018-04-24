@@ -1,0 +1,42 @@
+
+
+/* selectores de clase */
+body
+{
+font-family: 'Montserrat', sans-serif;
+  }
+  .titulo{
+  font-size: 70px;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.title-a{
+  font-size: 24px;
+font-family: 'Black Han Sans', sans-serif;
+}
+
+.title-b{
+  font-size: 35px;
+}
+.arturofoto{
+  font-size: 35px;
+}
+.portada{
+  background-image: url("../images/fondo2.jpg");
+  color: #1F313c;
+font-size: 160px;
+}
+.imagenes{
+  color: #1F313c;
+}
+.menu{
+  font-size: 50px
+  color: #1F313c;
+  display: inline-block;
+}
+.menu li{
+display: inline-block;
+}
+.logotipo{
+  display: inline-block;
+}
