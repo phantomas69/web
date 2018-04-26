@@ -1,42 +1,88 @@
 
 
 /* selectores de clase */
+
+
 body
 {
 font-family: 'Montserrat', sans-serif;
+margin: 0;
   }
   .titulo{
   font-size: 70px;
   font-family: 'Black Han Sans', sans-serif;
+  margin-bottom: -7px;
+  margin-top: -10px;
+  position: relative;
+    bottom: 45px;
 }
 
 .title-a{
   font-size: 24px;
 font-family: 'Black Han Sans', sans-serif;
+position: relative;
+    bottom: 63px;
 }
 
 .title-b{
   font-size: 35px;
+  overflow: hidden;
+  border: 1px solid #1F313c;
+      border-radius: 20px;
+
 }
 .arturofoto{
   font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: -20;
+  overflow: hidden;
+  border: 1px solid #1F313c;
+      border-radius: 20px;
 }
 .portada{
   background-image: url("../images/fondo2.jpg");
   color: #1F313c;
 font-size: 160px;
+padding: 100px;
+margin-bottom: 10px;
+font-size: 10px;
 }
 .imagenes{
   color: #1F313c;
+
 }
 .menu{
   font-size: 50px
   color: #1F313c;
   display: inline-block;
+  position: absolute;
+  right: 0px;
 }
 .menu li{
 display: inline-block;
+    margin-left: 140px;
 }
+
 .logotipo{
   display: inline-block;
+}
+.boton{
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.header{
+  width: 1000px;
+  margin: auto;
+}
+
+.titulo2{
+  padding-left:800px;
+}
+
+.contenedor{
+  width: 1000px;
+  margin: auto;
+}
+.mid img{
+  float: right;
 }
