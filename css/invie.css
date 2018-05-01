@@ -79,10 +79,85 @@ display: inline-block;
   padding-left:800px;
 }
 
-.contenedor{
+.contenedor2{
   width: 1000px;
   margin: auto;
 }
 .mid img{
-  float: right;
+    float: right;
+    position: relative;
+    top:-77px;
+    left: :-42px;
+  padding-right: 43px;
+}
+
+.Christian{
+  position: relative;
+  left: 735px;
+}
+.nathy{
+  padding-left: 80px;
+  position: absolute;
+bottom: -470px;
+
+}
+.footer{
+  background: #273b47;
+}
+.body
+{
+background-color: #F5F5F5;
+margin: 10px; padding: 10px;
+display: grid;
+}
+.contacto img{
+  display: block;
+}
+.contacto{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+.contacto strong{
+  display: block;
+}
+.contacto a{
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+  padding-left: 20px;
+}
+.footer .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+.formulario{
+  display: flex;
+  width: -100px;
+}
+.element{
+  display: flex;
+    position: relative;
+    top: -11px;
+    left: 69px;
+}
+.email{
+  display: flex;
+  padding-left: 10px;
+}
+.col2{
+  padding-top: 10px;
+  color: white;
+}
+.Coment2{
+  display: flex;
+}
+.col1{
+  padding-right: 75px;
+  padding-top: 30px;
+  color: white;
+}
+.cajadem{
+  padding-top: 10px;
+  color: white;
 }
