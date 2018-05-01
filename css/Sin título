@@ -1,0 +1,10 @@
+
+var f= new formulas();
+
+function formulas() {
+  /* Area de un cirulo*/
+  this.areaCirculo = function (radio) {
+  return Math.PI * Math.pow(radio,2);
+  }
+}
+console.log ("El area de un circulo de radio 2 es" +f.areaCirculo(2));
